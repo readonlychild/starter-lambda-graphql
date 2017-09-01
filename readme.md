@@ -1,4 +1,4 @@
-# Serverless DynamoPIM
+# Serverless GraphQL on AWS Lambda
 
 serverless v1.x
 
