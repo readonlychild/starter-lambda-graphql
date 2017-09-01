@@ -1,0 +1,17 @@
+{
+  "name": "lambda-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "axios": "^0.15.2",
+    "dotenv": "^2.0.0",
+    "graphql": "^0.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
