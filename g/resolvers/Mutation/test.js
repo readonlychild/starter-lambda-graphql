@@ -4,7 +4,7 @@ var resolver = (obj, args, ctx, info) => {
   let msg = args.message;
   return {
     success: true,
-    message: message
+    message: msg
   };
 };
 
