@@ -1,0 +1,10 @@
+type Mutation {
+    test(message: String!): CanResponse
+}
+
+type CanResponse {
+  success: Boolean!
+  message: String!
+  status: String
+  warning: String
+}

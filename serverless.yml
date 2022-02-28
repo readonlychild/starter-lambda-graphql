@@ -1,51 +1,24 @@
-service: lambda-gql
+service: gql-2022-02
 
-# You can pin your service to only deploy with a specific Serverless version
-# Check out our docs for more details
-# frameworkVersion: "=X.X.X"
+frameworkVersion: '2 || 3'
 
 provider:
   name: aws
-  runtime: nodejs6.10
+  runtime: nodejs12.x
   memorySize: 128
-  timeout: 9
+  timeout: 12
   stage: dev
   profile: personal-dev
   region: us-east-1
-  cfLogs: true
-  iamRoleStatements:
-    - Effect: Allow
-      Action:
-        - s3:GetObject
-      Resource: "arn:aws:s3:::"
-#    - Effect: Allow
-#      Action:
-#        - lambda:InvokeFunction
-#      Resource: "arn:aws:lambda:us-east-1:<account-id>:function:*"
-  environment:
-    STAGE: "${self:custom.stage}"
-
-custom:
-  stage: ${opt:stage, self:provider.stage}
-  dev:
-    domain: "http://dev"
-  test:
-    domain: "http://test"
-  prod:
-    domain: "http://prod"
-
-
-# you can add packaging information here
-#package:
-#  exclude:
-#    - exclude-me.js
-#  artifact: my-service-code.zip
+  lambdaHashingVersion: 20201221
 
 functions:
 
   gql:
     handler: gql.gql
     description: graphql implementation
+    environment:
+      ES_DOMAIN: ${file(./config.json):ES_DOMAIN}
     events:
       - http:
           path: gql

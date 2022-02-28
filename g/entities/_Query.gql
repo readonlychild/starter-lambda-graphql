@@ -1,0 +1,4 @@
+type Query {
+  test(message: String!): TestObject
+  testNoParam: TestObject
+}
