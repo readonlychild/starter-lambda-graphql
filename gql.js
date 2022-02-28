@@ -11,7 +11,7 @@ let resolvers = false;
 
 module.exports.gql = (event, context, callback) => {
 
-  console.log(event);
+  // console.log(event);
   let evtdata = JSON.parse(event.body);
   let query = '{ testNoParam { total caption } }';
   if (evtdata.query) query = evtdata.query;
