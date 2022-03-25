@@ -1,7 +1,6 @@
 // import things here
 
 var resolver = (obj, args, ctx, info) => {
-  console.log('Activating QUERY->RESOLVER', 'test.js');
   let msg = args.message;
   return {
     total: 4,

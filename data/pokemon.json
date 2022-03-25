@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "BULBASAUR",
+    "name": "BULBASAUR",
+    "type1": "GRASS",
+    "type2": "POISON",
+    "moves": {
+      "quick": [
+        "VINE_WHIP_FAST",
+        "TACKLE_FAST"
+      ],
+      "charge": [
+        "SLUDGE_BOMB",
+        "SEED_BOMB",
+        "POWER_WHIP"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": []
+    },
+    "stats": {
+      "stamina": 128,
+      "attack": 118,
+      "defense": 111
+    },
+    "family": "BULBASAUR",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "IVYSAUR_NORMAL",
+        "form": "IVYSAUR_NORMAL",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.2,
+    "fleeRate": 0.1,
+    "dodgeProbability": 0.15,
+    "height": 0.7,
+    "weight": 6.9,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "names": "|1|Bulbasaur|Bulbizarre|Bulbasaur||"
+  },
+  {
+    "id": "IVYSAUR",
+    "name": "IVYSAUR",
+    "type1": "GRASS",
+    "type2": "POISON",
+    "moves": {
+      "quick": [
+        "RAZOR_LEAF_FAST",
+        "VINE_WHIP_FAST"
+      ],
+      "charge": [
+        "SLUDGE_BOMB",
+        "SOLAR_BEAM",
+        "POWER_WHIP"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": []
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 151,
+      "defense": 143
+    },
+    "family": "BULBASAUR",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "VENUSAUR_NORMAL",
+        "form": "VENUSAUR_NORMAL",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "dodgeProbability": 0.15,
+    "height": 1,
+    "weight": 13,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "parentId": "BULBASAUR",
+    "names": "|2|Ivysaur|Herbizarre|Ivysaur||"
+  },
+  {
+    "id": "VENUSAUR",
+    "name": "VENUSAUR",
+    "type1": "GRASS",
+    "type2": "POISON",
+    "moves": {
+      "quick": [
+        "RAZOR_LEAF_FAST",
+        "VINE_WHIP_FAST"
+      ],
+      "charge": [
+        "SLUDGE_BOMB",
+        "PETAL_BLIZZARD",
+        "SOLAR_BEAM"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "FRENZY_PLANT"
+      ]
+    },
+    "stats": {
+      "stamina": 190,
+      "attack": 198,
+      "defense": 189
+    },
+    "family": "BULBASAUR",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [],
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "dodgeProbability": 0.15,
+    "height": 2,
+    "weight": 100,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "parentId": "IVYSAUR",
+    "megaEvolutions": [
+      {
+        "type": "MEGA",
+        "stats": {
+          "stamina": 190,
+          "attack": 241,
+          "defense": 246
+        },
+        "type1": "GRASS",
+        "type2": "POISON"
+      }
+    ],
+    "names": "|3|Venusaur|Florizarre|Venusaur||"
+  },
+  {
+    "id": "CHARMANDER",
+    "name": "CHARMANDER",
+    "type1": "FIRE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "EMBER_FAST",
+        "SCRATCH_FAST"
+      ],
+      "charge": [
+        "FLAME_CHARGE",
+        "FLAME_BURST",
+        "FLAMETHROWER"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": []
+    },
+    "stats": {
+      "stamina": 118,
+      "attack": 116,
+      "defense": 93
+    },
+    "family": "CHARMANDER",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "CHARMELEON_NORMAL",
+        "form": "CHARMELEON_NORMAL",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.2,
+    "fleeRate": 0.1,
+    "dodgeProbability": 0.15,
+    "height": 0.6,
+    "weight": 8.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "names": "|4|Charmander|Salamèche|Charmander||"
+  },
+  {
+    "id": "CHARMELEON",
+    "name": "CHARMELEON",
+    "type1": "FIRE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "EMBER_FAST",
+        "FIRE_FANG_FAST"
+      ],
+      "charge": [
+        "FIRE_PUNCH",
+        "FLAME_BURST",
+        "FLAMETHROWER"
+      ],
+      "eliteQuick": [
+        "SCRATCH_FAST"
+      ],
+      "eliteCharge": []
+    },
+    "stats": {
+      "stamina": 151,
+      "attack": 158,
+      "defense": 126
+    },
+    "family": "CHARMANDER",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "CHARIZARD_NORMAL",
+        "form": "CHARIZARD_NORMAL",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "dodgeProbability": 0.15,
+    "height": 1.1,
+    "weight": 19,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "parentId": "CHARMANDER",
+    "names": "|5|Charmeleon|Reptincel|Charmeleon||"
+  },
+  {
+    "id": "CHARIZARD",
+    "name": "CHARIZARD",
+    "type1": "FIRE",
+    "type2": "FLYING",
+    "moves": {
+      "quick": [
+        "FIRE_SPIN_FAST",
+        "AIR_SLASH_FAST"
+      ],
+      "charge": [
+        "FIRE_BLAST",
+        "DRAGON_CLAW",
+        "OVERHEAT"
+      ],
+      "eliteQuick": [
+        "EMBER_FAST",
+        "WING_ATTACK_FAST",
+        "DRAGON_BREATH_FAST"
+      ],
+      "eliteCharge": [
+        "BLAST_BURN",
+        "FLAMETHROWER"
+      ]
+    },
+    "stats": {
+      "stamina": 186,
+      "attack": 223,
+      "defense": 173
+    },
+    "family": "CHARMANDER",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [],
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "dodgeProbability": 0.15,
+    "height": 1.7,
+    "weight": 90.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "parentId": "CHARMELEON",
+    "megaEvolutions": [
+      {
+        "type": "MEGA_X",
+        "stats": {
+          "stamina": 186,
+          "attack": 273,
+          "defense": 213
+        },
+        "type1": "FIRE",
+        "type2": "DRAGON"
+      },
+      {
+        "type": "MEGA_Y",
+        "stats": {
+          "stamina": 186,
+          "attack": 319,
+          "defense": 212
+        },
+        "type1": "FIRE",
+        "type2": "FLYING"
+      }
+    ],
+    "names": "|6|Charizard|Dracaufeu|Charizard||"
+  },
+  {
+    "id": "SQUIRTLE",
+    "name": "SQUIRTLE",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "BUBBLE_FAST",
+        "TACKLE_FAST"
+      ],
+      "charge": [
+        "AQUA_JET",
+        "AQUA_TAIL",
+        "WATER_PULSE"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": []
+    },
+    "stats": {
+      "stamina": 127,
+      "attack": 94,
+      "defense": 121
+    },
+    "family": "SQUIRTLE",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "WARTORTLE_NORMAL",
+        "form": "WARTORTLE_NORMAL",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.2,
+    "fleeRate": 0.1,
+    "dodgeProbability": 0.15,
+    "height": 0.5,
+    "weight": 9,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "names": "|7|Squirtle|Carapuce|Squirtle||"
+  },
+  {
+    "id": "WARTORTLE",
+    "name": "WARTORTLE",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "WATER_GUN_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "AQUA_JET",
+        "ICE_BEAM",
+        "HYDRO_PUMP"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": []
+    },
+    "stats": {
+      "stamina": 153,
+      "attack": 126,
+      "defense": 155
+    },
+    "family": "SQUIRTLE",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "BLASTOISE_NORMAL",
+        "form": "BLASTOISE_NORMAL",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.1,
+    "fleeRate": 0.07,
+    "dodgeProbability": 0.15,
+    "height": 1,
+    "weight": 22.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "parentId": "SQUIRTLE",
+    "names": "|8|Wartortle|Carabaffe|Wartortle||"
+  },
+  {
+    "id": "BLASTOISE",
+    "name": "BLASTOISE",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "WATER_GUN_FAST",
+        "BITE_FAST"
+      ],
+      "charge": [
+        "FLASH_CANNON",
+        "ICE_BEAM",
+        "HYDRO_PUMP",
+        "SKULL_BASH"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "HYDRO_CANNON"
+      ]
+    },
+    "stats": {
+      "stamina": 188,
+      "attack": 171,
+      "defense": 207
+    },
+    "family": "SQUIRTLE",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [],
+    "captureRate": 0.05,
+    "fleeRate": 0.05,
+    "dodgeProbability": 0.15,
+    "height": 1.6,
+    "weight": 85.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "parentId": "WARTORTLE",
+    "megaEvolutions": [
+      {
+        "type": "MEGA",
+        "stats": {
+          "stamina": 188,
+          "attack": 264,
+          "defense": 237
+        },
+        "type1": "WATER",
+        "type2": null
+      }
+    ],
+    "names": "|9|Blastoise|Tortank|Blastoise||"
+  },
+  {
+    "id": "PIKACHU",
+    "name": "PIKACHU",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "THUNDER_SHOCK_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "WILD_CHARGE"
+      ],
+      "eliteQuick": [
+        "PRESENT_FAST"
+      ],
+      "eliteCharge": [
+        "SURF",
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 111,
+      "attack": 112,
+      "defense": 96
+    },
+    "family": "PIKACHU",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [
+      {
+        "evolution": "RAICHU",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.2,
+    "fleeRate": 0.1,
+    "dodgeProbability": 0.15,
+    "height": 0.4,
+    "weight": 6,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "parentId": "PICHU",
+    "names": "|25|Pikachu|Pikachu|Pikachu||"
+  },
+  {
+    "id": "RAICHU",
+    "name": "RAICHU",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "VOLT_SWITCH_FAST",
+        "SPARK_FAST",
+        "CHARM_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "BRICK_BREAK",
+        "THUNDER_PUNCH",
+        "WILD_CHARGE",
+        "SKULL_BASH"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "THUNDER"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 193,
+      "defense": 151
+    },
+    "family": "PIKACHU",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [],
+    "captureRate": 0.1,
+    "fleeRate": 0.06,
+    "dodgeProbability": 0.15,
+    "height": 0.8,
+    "weight": 30,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "parentId": "PIKACHU",
+    "names": "|26|Raichu|Raichu|Raichu||"
+  },
+  {
+    "id": "RAICHU_ALOLA",
+    "name": "RAICHU",
+    "type1": "ELECTRIC",
+    "type2": "PSYCHIC",
+    "moves": {
+      "quick": [
+        "VOLT_SWITCH_FAST",
+        "SPARK_FAST",
+        "THUNDER_SHOCK_FAST"
+      ],
+      "charge": [
+        "PSYCHIC",
+        "THUNDER_PUNCH",
+        "WILD_CHARGE",
+        "GRASS_KNOT"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": []
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 201,
+      "defense": 154
+    },
+    "family": "PIKACHU",
+    "kmBuddyDistance": 1,
+    "evolutionBranch": [],
+    "captureRate": 0.1,
+    "fleeRate": 0.06,
+    "dodgeProbability": 0.15,
+    "height": 0.7,
+    "weight": 21,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 10000,
+      "candyToUnlock": 25
+    },
+    "parentId": "PIKACHU",
+    "names": "|26-alola|Raichu Alola|Raichu Alola|Raichu Alola||"
+  },
+  {
+    "id": "GASTLY",
+    "name": "GASTLY",
+    "type1": "GHOST",
+    "type2": "POISON",
+    "moves": {
+      "quick": [
+        "LICK_FAST",
+        "ASTONISH_FAST"
+      ],
+      "charge": [
+        "NIGHT_SHADE",
+        "DARK_PULSE",
+        "SLUDGE_BOMB"
+      ],
+      "eliteQuick": [
+        "SUCKER_PUNCH_FAST"
+      ],
+      "eliteCharge": [
+        "OMINOUS_WIND"
+      ]
+    },
+    "stats": {
+      "stamina": 102,
+      "attack": 186,
+      "defense": 67
+    },
+    "family": "GASTLY",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "HAUNTER",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.4,
+    "fleeRate": 0.1,
+    "dodgeProbability": 0.2,
+    "height": 1.3,
+    "weight": 0.1,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "names": "|92|Gastly|Fantominus|Gastly||"
+  },
+  {
+    "id": "HAUNTER",
+    "name": "HAUNTER",
+    "type1": "GHOST",
+    "type2": "POISON",
+    "moves": {
+      "quick": [
+        "SHADOW_CLAW_FAST",
+        "ASTONISH_FAST"
+      ],
+      "charge": [
+        "SHADOW_PUNCH",
+        "DARK_PULSE",
+        "SLUDGE_BOMB",
+        "SHADOW_BALL"
+      ],
+      "eliteQuick": [
+        "LICK_FAST"
+      ],
+      "eliteCharge": []
+    },
+    "stats": {
+      "stamina": 128,
+      "attack": 223,
+      "defense": 107
+    },
+    "family": "GASTLY",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [
+      {
+        "evolution": "GENGAR",
+        "candyCost": 100
+      }
+    ],
+    "captureRate": 0.2,
+    "fleeRate": 0.07,
+    "dodgeProbability": 0.15,
+    "height": 1.6,
+    "weight": 0.1,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "parentId": "GASTLY",
+    "names": "|93|Haunter|Spectrum|Haunter||"
+  },
+  {
+    "id": "GENGAR",
+    "name": "GENGAR",
+    "type1": "GHOST",
+    "type2": "POISON",
+    "moves": {
+      "quick": [
+        "SUCKER_PUNCH_FAST",
+        "HEX_FAST",
+        "SHADOW_CLAW_FAST"
+      ],
+      "charge": [
+        "SHADOW_BALL",
+        "FOCUS_BLAST",
+        "SLUDGE_BOMB"
+      ],
+      "eliteQuick": [
+        "LICK_FAST"
+      ],
+      "eliteCharge": [
+        "SLUDGE_WAVE",
+        "DARK_PULSE",
+        "PSYCHIC",
+        "SHADOW_PUNCH"
+      ]
+    },
+    "stats": {
+      "stamina": 155,
+      "attack": 261,
+      "defense": 149
+    },
+    "family": "GASTLY",
+    "kmBuddyDistance": 3,
+    "evolutionBranch": [],
+    "captureRate": 0.1,
+    "fleeRate": 0.05,
+    "dodgeProbability": 0.15,
+    "height": 1.5,
+    "weight": 40.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 50000,
+      "candyToUnlock": 50
+    },
+    "parentId": "HAUNTER",
+    "megaEvolutions": [
+      {
+        "type": "MEGA",
+        "stats": {
+          "stamina": 155,
+          "attack": 349,
+          "defense": 199
+        },
+        "type1": "GHOST",
+        "type2": "POISON"
+      }
+    ],
+    "names": "|94|Gengar|Ectoplasma|Gengar||"
+  },
+  {
+    "id": "EEVEE",
+    "name": "EEVEE",
+    "type1": "NORMAL",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "QUICK_ATTACK_FAST",
+        "TACKLE_FAST"
+      ],
+      "charge": [
+        "DIG",
+        "SWIFT"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "LAST_RESORT",
+        "BODY_SLAM"
+      ]
+    },
+    "stats": {
+      "stamina": 146,
+      "attack": 104,
+      "defense": 114
+    },
+    "family": "EEVEE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "VAPOREON",
+        "candyCost": 25
+      },
+      {
+        "evolution": "JOLTEON",
+        "candyCost": 25
+      },
+      {
+        "evolution": "FLAREON",
+        "candyCost": 25
+      },
+      {
+        "evolution": "ESPEON",
+        "candyCost": 25,
+        "kmBuddyDistanceRequirement": 10,
+        "mustBeBuddy": true,
+        "onlyDaytime": true
+      },
+      {
+        "evolution": "UMBREON",
+        "candyCost": 25,
+        "kmBuddyDistanceRequirement": 10,
+        "mustBeBuddy": true,
+        "onlyNighttime": true
+      },
+      {
+        "evolution": "LEAFEON",
+        "candyCost": 25,
+        "lureItemRequirement": "TROY_DISK_MOSSY"
+      },
+      {
+        "evolution": "GLACEON",
+        "candyCost": 25,
+        "lureItemRequirement": "TROY_DISK_GLACIAL"
+      },
+      {
+        "evolution": "SYLVEON",
+        "candyCost": 25
+      }
+    ],
+    "captureRate": 0.4,
+    "fleeRate": 0.1,
+    "dodgeProbability": 0.15,
+    "height": 0.3,
+    "weight": 6.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "names": "|133|Eevee|Évoli|Eevee||"
+  },
+  {
+    "id": "VAPOREON",
+    "name": "VAPOREON",
+    "type1": "WATER",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "WATER_GUN_FAST"
+      ],
+      "charge": [
+        "WATER_PULSE",
+        "HYDRO_PUMP",
+        "AQUA_TAIL"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "LAST_RESORT",
+        "SCALD"
+      ]
+    },
+    "stats": {
+      "stamina": 277,
+      "attack": 205,
+      "defense": 161
+    },
+    "family": "EEVEE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [],
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "dodgeProbability": 0.15,
+    "height": 1,
+    "weight": 29,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "parentId": "EEVEE",
+    "names": "|134|Vaporeon|Aquali|Vaporeon||"
+  },
+  {
+    "id": "JOLTEON",
+    "name": "JOLTEON",
+    "type1": "ELECTRIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "THUNDER_SHOCK_FAST",
+        "VOLT_SWITCH_FAST"
+      ],
+      "charge": [
+        "DISCHARGE",
+        "THUNDERBOLT",
+        "THUNDER"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "LAST_RESORT",
+        "ZAP_CANNON"
+      ]
+    },
+    "stats": {
+      "stamina": 163,
+      "attack": 232,
+      "defense": 182
+    },
+    "family": "EEVEE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [],
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "dodgeProbability": 0.2,
+    "height": 0.8,
+    "weight": 24.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "parentId": "EEVEE",
+    "names": "|135|Jolteon|Voltali|Jolteon||"
+  },
+  {
+    "id": "FLAREON",
+    "name": "FLAREON",
+    "type1": "FIRE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "EMBER_FAST",
+        "FIRE_SPIN_FAST"
+      ],
+      "charge": [
+        "FIRE_BLAST",
+        "FLAMETHROWER",
+        "OVERHEAT"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "LAST_RESORT",
+        "HEAT_WAVE",
+        "SUPER_POWER"
+      ]
+    },
+    "stats": {
+      "stamina": 163,
+      "attack": 246,
+      "defense": 179
+    },
+    "family": "EEVEE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [],
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "dodgeProbability": 0.15,
+    "height": 0.9,
+    "weight": 25,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "parentId": "EEVEE",
+    "names": "|136|Flareon|Pyroli|Flareon||"
+  },
+  {
+    "id": "ESPEON",
+    "name": "ESPEON",
+    "type1": "PSYCHIC",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "CONFUSION_FAST",
+        "ZEN_HEADBUTT_FAST"
+      ],
+      "charge": [
+        "PSYBEAM",
+        "PSYCHIC",
+        "FUTURESIGHT"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "LAST_RESORT",
+        "SHADOW_BALL"
+      ]
+    },
+    "stats": {
+      "stamina": 163,
+      "attack": 261,
+      "defense": 175
+    },
+    "family": "EEVEE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [],
+    "captureRate": 0.125,
+    "fleeRate": 0.05,
+    "dodgeProbability": 0.15,
+    "height": 0.89,
+    "weight": 26.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "parentId": "EEVEE",
+    "names": "|196|Espeon|Mentali|Espeon||"
+  },
+  {
+    "id": "UMBREON",
+    "name": "UMBREON",
+    "type1": "DARK",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "FEINT_ATTACK_FAST",
+        "SNARL_FAST"
+      ],
+      "charge": [
+        "DARK_PULSE",
+        "FOUL_PLAY"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "LAST_RESORT",
+        "PSYCHIC"
+      ]
+    },
+    "stats": {
+      "stamina": 216,
+      "attack": 126,
+      "defense": 240
+    },
+    "family": "EEVEE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [],
+    "captureRate": 0.125,
+    "fleeRate": 0.05,
+    "dodgeProbability": 0.15,
+    "height": 0.99,
+    "weight": 27,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "parentId": "EEVEE",
+    "names": "|197|Umbreon|Noctali|Umbreon||"
+  },
+  {
+    "id": "LEAFEON",
+    "name": "LEAFEON",
+    "type1": "GRASS",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "RAZOR_LEAF_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "SOLAR_BEAM",
+        "LEAF_BLADE",
+        "ENERGY_BALL"
+      ],
+      "eliteQuick": [
+        "BULLET_SEED_FAST"
+      ],
+      "eliteCharge": [
+        "LAST_RESORT"
+      ]
+    },
+    "stats": {
+      "stamina": 163,
+      "attack": 216,
+      "defense": 219
+    },
+    "family": "EEVEE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [],
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "dodgeProbability": 0.3,
+    "height": 1,
+    "weight": 25.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 50
+    },
+    "parentId": "EEVEE",
+    "names": "|470|Leafeon|Phyllali|Leafeon||"
+  },
+  {
+    "id": "GLACEON",
+    "name": "GLACEON",
+    "type1": "ICE",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "ICE_SHARD_FAST",
+        "FROST_BREATH_FAST"
+      ],
+      "charge": [
+        "AVALANCHE",
+        "ICY_WIND",
+        "ICE_BEAM"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "LAST_RESORT",
+        "WATER_PULSE"
+      ]
+    },
+    "stats": {
+      "stamina": 163,
+      "attack": 238,
+      "defense": 205
+    },
+    "family": "EEVEE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [],
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "dodgeProbability": 0.3,
+    "height": 0.8,
+    "weight": 25.9,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 50
+    },
+    "parentId": "EEVEE",
+    "names": "|471|Glaceon|Givrali|Glaceon||"
+  },
+  {
+    "id": "SYLVEON",
+    "name": "SYLVEON",
+    "type1": "FAIRY",
+    "type2": null,
+    "moves": {
+      "quick": [
+        "CHARM_FAST",
+        "QUICK_ATTACK_FAST"
+      ],
+      "charge": [
+        "MOONBLAST",
+        "DAZZLING_GLEAM",
+        "DRAINING_KISS"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "LAST_RESORT",
+        "PSYSHOCK"
+      ]
+    },
+    "stats": {
+      "stamina": 216,
+      "attack": 203,
+      "defense": 205
+    },
+    "family": "EEVEE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [],
+    "captureRate": 0.125,
+    "fleeRate": 0.06,
+    "dodgeProbability": 0.3,
+    "height": 1,
+    "weight": 23.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 50
+    },
+    "parentId": "EEVEE",
+    "names": "|700|||||"
+  },
+  {
+    "id": "OMANYTE",
+    "name": "OMANYTE",
+    "type1": "ROCK",
+    "type2": "WATER",
+    "moves": {
+      "quick": [
+        "WATER_GUN_FAST",
+        "MUD_SHOT_FAST"
+      ],
+      "charge": [
+        "ANCIENT_POWER",
+        "BUBBLE_BEAM",
+        "ROCK_BLAST"
+      ],
+      "eliteQuick": [],
+      "eliteCharge": [
+        "ROCK_TOMB",
+        "BRINE"
+      ]
+    },
+    "stats": {
+      "stamina": 111,
+      "attack": 155,
+      "defense": 153
+    },
+    "family": "OMANYTE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [
+      {
+        "evolution": "OMASTAR_NORMAL",
+        "form": "OMASTAR_NORMAL",
+        "candyCost": 50
+      }
+    ],
+    "captureRate": 0.4,
+    "fleeRate": 0.09,
+    "dodgeProbability": 0.15,
+    "height": 0.4,
+    "weight": 7.5,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "names": "|138|Omanyte|Amonita|Omanyte||"
+  },
+  {
+    "id": "OMASTAR",
+    "name": "OMASTAR",
+    "type1": "ROCK",
+    "type2": "WATER",
+    "moves": {
+      "quick": [
+        "MUD_SHOT_FAST",
+        "WATER_GUN_FAST"
+      ],
+      "charge": [
+        "ANCIENT_POWER",
+        "HYDRO_PUMP",
+        "ROCK_BLAST"
+      ],
+      "eliteQuick": [
+        "ROCK_THROW_FAST"
+      ],
+      "eliteCharge": [
+        "ROCK_SLIDE"
+      ]
+    },
+    "stats": {
+      "stamina": 172,
+      "attack": 207,
+      "defense": 201
+    },
+    "family": "OMANYTE",
+    "kmBuddyDistance": 5,
+    "evolutionBranch": [],
+    "captureRate": 0.15,
+    "fleeRate": 0.05,
+    "dodgeProbability": 0.15,
+    "height": 1,
+    "weight": 35,
+    "isTransferable": true,
+    "isDeployable": true,
+    "isLegend": false,
+    "isMythic": false,
+    "thirdMove": {
+      "stardustToUnlock": 75000,
+      "candyToUnlock": 75
+    },
+    "parentId": "OMANYTE",
+    "names": "|139|Omastar|Amonistar|Omastar||"
+  }
+]

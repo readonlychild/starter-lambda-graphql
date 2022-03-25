@@ -1,0 +1,74 @@
+type Pokemon {
+  id: String!
+  name: String!
+  names: String!
+  type1: String!
+  type2: String
+  family: String!
+  kmBuddyDistance: Int!
+  stats: Stats!
+  moves: MoveSet!
+  height: Float!
+  weight: Float!
+  evolutionBranch: [Evolution]!
+  isTransferable: Boolean!
+  isDeployable: Boolean!
+  isLegend: Boolean!
+  isMythic: Boolean!
+  parentId: String
+}
+
+type Stats {
+  attack: Int!
+  defense: Int!
+  stamina: Int!
+}
+
+type MoveSet {
+  quick: [String]!
+  charge: [String]!
+  eliteQuick: [String]!
+  eliteCharge: [String]!
+}
+
+type Evolution {
+  evolution: String
+  form: String
+  candyCost: Int!
+}
+
+type MegaEvolution {
+  type: String!
+  stats: Stats!
+  type1: String!
+  type2: String!
+}
+
+type Move {
+  Name: String!
+  Type: String!
+  Power: Int!
+  DurationMs: Int!
+  Energy: Int!
+  combat: CombatMove
+}
+
+type CombatMove {
+  Type: String!
+  Power: Int!
+  Energy: Int!
+  buffs: MoveBuff
+}
+
+type MoveBuff {
+  buffActivationChance: Float!
+  targetDefenseStatStageChange: Int
+  targetAttackStatStageChange: Int
+  attackerAttackStatStageChange: Int
+  attackerDefenseStatStageChange: Int
+}
+
+type PokemonPage {
+  items: [Pokemon]!
+  paging: Paging!
+}

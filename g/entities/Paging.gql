@@ -1,0 +1,6 @@
+type Paging {
+  total: Int!
+  page: Int!
+  totalPages: Int!
+  itemsPerPage: Int!
+}
