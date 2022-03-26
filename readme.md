@@ -303,7 +303,7 @@ Now a request to get details for 3 pokemon, using the same request (as opposed t
   }
 }
 ```
-Notice how we `named` each query so the resulting `data` object can hold them as siblings, and we can access them on our code using those `keys`.
+Notice how we `named` each query so the resulting `data` object can hold them as siblings, and we can access them in our code using those `keys`.
 
 
 
