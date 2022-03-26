@@ -33,7 +33,7 @@ uses `.aws/credentials` profile of `personal-dev` (specified in serverless.yml:p
 
 ### entities
 
-Entities define the `objects or types` that our endpoint knows how to work with.
+Entities define the `objects` or `types` that our endpoint knows how to work with.
 
 Every file in this folder is aggregated to build the total schema definition for our endpoint.
 
@@ -43,6 +43,8 @@ Every file in this folder is aggregated to build the total schema definition for
 
 ```graphql
 type Query {
+  pokemon(id: String!): Pokemon
+  allPokemon(page: Int, itemsPerPage: Int): PokemonPage
   test(message: String!): TestObject
   testNoParam: TestObject
 }
@@ -56,8 +58,7 @@ I create two sample queries:
 - `testNoParam: TestObject`
   - This query does not require any parameters. This query also returns a `TestObject`
 
-
-:page_facing_up: `test.gql` defines one `type`, with all-scalar types: [Scalar-types](https://graphql.org/learn/schema/#scalar-types)
+:page_facing_up: `TestObject.gql` defines one `type`, with all-scalar types: [Scalar-types](https://graphql.org/learn/schema/#scalar-types)
 
 ```graphql
 type TestObject {
@@ -66,6 +67,25 @@ type TestObject {
   prop1: String!
   prop2: String!
   prop3: String!
+}
+```
+
+I created better sample queries:
+
+- `pokemon(id: String!): Pokemon`
+  - Returns pokemon information for the specified `id`.
+- `allPokemon(page: Int, itemsPerPage: Int): PokemonPage`
+  - Returns pokemon and shows a `paging` approach.
+
+:page_facing_up: `Types` for these queries can be found in [Pokemon.gql](./g/entities/Pokemon.gql) and [Paging.gql](./g/entities/Paging.gql)
+
+Here is `Paging.gql`
+```graphql
+type Paging {
+  total: Int!
+  page: Int!
+  totalPages: Int!
+  itemsPerPage: Int!
 }
 ```
 
@@ -217,14 +237,75 @@ returns
 }
 ```
 
-In ChromeiQL
-
 ![ChromeiQL-1](https://cdn.discordapp.com/attachments/943991815084847175/947983186397388830/unknown.png)
 
 
 ## Dev & Test
 
-There is a Google Chrome extension called [ChromeiQL](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij) that makes it easy to query/test your endpoint.
+There is a [Chrome](https://chrome.google.com/webstore/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja) and [Edge](https://microsoftedge.microsoft.com/addons/detail/altair-graphql-client/kpggioiimijgcalmnfnalgglgooonopa) browser extension that lets you interact with your lambda graphql easily, it is called **Altair**.
+
+And it also exists for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/altair-graphql-client/).
+
+
+# Demo
+
+Now that you have your GraphQL browser extension ready, here is the endpoint URL to see it in action!
+
+`https://rj07ty7re4.execute-api.us-east-1.amazonaws.com/dev/gql`
+
+And here are some demo queries to try out:
+
+Grab the second page of available pokemon
+
+```graphql
+{
+  allPokemon(page:2) {
+    items {
+      name type1 type2 id stats { attack defense stamina }
+    } 
+    paging { total page itemsPerPage totalPages }
+  }
+}
+```
+
+Get some details about `ivysaur`
+
+```graphql
+{
+  pokemon(id:"ivysaur") {
+    name type1 type2 names
+    stats { attack defense stamina }
+    family parentId
+    moves { quick eliteQuick charge eliteCharge }
+    evolutionBranch { evolution candyCost form }
+  }
+}
+```
+
+Now a request to get details for 3 pokemon, using the same request (as opposed to needing 3 separate requests on a typical REST API)
+
+```graphql
+{
+  poke1: pokemon(id:"ivysaur") {
+    name type1 type2 names
+    stats { attack defense stamina }
+    moves { quick eliteQuick charge eliteCharge }
+  }
+  poke2: pokemon(id:"omanyte") {
+    name type1 type2 names
+    stats { attack defense stamina }
+    moves { quick eliteQuick charge eliteCharge }
+  }
+  poke3: pokemon(id:"gastly") {
+    name type1 type2 names
+    stats { attack defense stamina }
+    moves { quick eliteQuick charge eliteCharge }
+  }
+}
+```
+Notice how we `named` each query so the resulting `data` object can hold them as siblings, and we can access them on our code using those `keys`.
+
+
 
 # Other
 
@@ -232,7 +313,7 @@ There is a Google Chrome extension called [ChromeiQL](https://chrome.google.com/
 
 A :page_facing_up: JSON file where you can manage environment variables or other things.
 
-There is an example of grabbing the `ES_DOMAIN` value from `config.json` and applying it to the environment of the `gql` lambda function in `serverless.yml`
+There is an example of grabbing an `ES_DOMAIN` value from `config.json` and applying it to the environment of the `gql` lambda function in `serverless.yml`
 
 ```
 21:  ES_DOMAIN: ${file(./config.json):ES_DOMAIN}
@@ -240,7 +321,7 @@ There is an example of grabbing the `ES_DOMAIN` value from `config.json` and app
 
 ## dependencies
 
-`axios` :arrow_forward: for travelling the http[s] to get things.  
+`axios` :arrow_forward: for travelling over http[s] to get things.  
 `graphql` :arrow_forward: GraphQL magic.  
 `@graphql-tools/schema` :arrow_forward: allows GraphQL Schema Language support.  
 `nanoid` :arrow_forward: for when you need unique ids.  
