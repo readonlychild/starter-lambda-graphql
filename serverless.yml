@@ -8,7 +8,7 @@ provider:
   memorySize: 128
   timeout: 12
   stage: dev
-  profile: personal-dev
+  profile: default
   region: us-east-1
   lambdaHashingVersion: 20201221
 
