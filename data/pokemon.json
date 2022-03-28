@@ -44,7 +44,10 @@
       "stardustToUnlock": 10000,
       "candyToUnlock": 25
     },
-    "names": "|1|Bulbasaur|Bulbizarre|Bulbasaur||"
+    "names": "|1|Bulbasaur|Bulbizarre|Bulbasaur||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_001_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_001_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
   },
   {
     "id": "IVYSAUR",
@@ -92,7 +95,10 @@
       "candyToUnlock": 25
     },
     "parentId": "BULBASAUR",
-    "names": "|2|Ivysaur|Herbizarre|Ivysaur||"
+    "names": "|2|Ivysaur|Herbizarre|Ivysaur||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_002_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_002_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
   },
   {
     "id": "VENUSAUR",
@@ -149,6 +155,10 @@
       }
     ],
     "names": "|3|Venusaur|Florizarre|Venusaur||"
+    ,
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_003_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_003_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
   },
   {
     "id": "CHARMANDER",
@@ -195,7 +205,10 @@
       "stardustToUnlock": 10000,
       "candyToUnlock": 25
     },
-    "names": "|4|Charmander|Salamèche|Charmander||"
+    "names": "|4|Charmander|Salamèche|Charmander||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_004_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_004_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
   },
   {
     "id": "CHARMELEON",
@@ -245,7 +258,10 @@
       "candyToUnlock": 25
     },
     "parentId": "CHARMANDER",
-    "names": "|5|Charmeleon|Reptincel|Charmeleon||"
+    "names": "|5|Charmeleon|Reptincel|Charmeleon||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_005_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_005_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
   },
   {
     "id": "CHARIZARD",
@@ -316,7 +332,10 @@
         "type2": "FLYING"
       }
     ],
-    "names": "|6|Charizard|Dracaufeu|Charizard||"
+    "names": "|6|Charizard|Dracaufeu|Charizard||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_006_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_006_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
   },
   {
     "id": "SQUIRTLE",
@@ -363,7 +382,10 @@
       "stardustToUnlock": 10000,
       "candyToUnlock": 25
     },
-    "names": "|7|Squirtle|Carapuce|Squirtle||"
+    "names": "|7|Squirtle|Carapuce|Squirtle||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_007_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_007_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
   },
   {
     "id": "WARTORTLE",
@@ -411,7 +433,10 @@
       "candyToUnlock": 25
     },
     "parentId": "SQUIRTLE",
-    "names": "|8|Wartortle|Carabaffe|Wartortle||"
+    "names": "|8|Wartortle|Carabaffe|Wartortle||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_008_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_008_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
   },
   {
     "id": "BLASTOISE",
@@ -468,7 +493,10 @@
         "type2": null
       }
     ],
-    "names": "|9|Blastoise|Tortank|Blastoise||"
+    "names": "|9|Blastoise|Tortank|Blastoise||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_009_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_009_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
   },
   {
     "id": "PIKACHU",
@@ -520,7 +548,10 @@
       "candyToUnlock": 25
     },
     "parentId": "PICHU",
-    "names": "|25|Pikachu|Pikachu|Pikachu||"
+    "names": "|25|Pikachu|Pikachu|Pikachu||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_025_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_025_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
   },
   {
     "id": "RAICHU",
@@ -567,7 +598,10 @@
       "candyToUnlock": 25
     },
     "parentId": "PIKACHU",
-    "names": "|26|Raichu|Raichu|Raichu||"
+    "names": "|26|Raichu|Raichu|Raichu||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_026_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_026_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png"
   },
   {
     "id": "RAICHU_ALOLA",
@@ -611,7 +645,10 @@
       "candyToUnlock": 25
     },
     "parentId": "PIKACHU",
-    "names": "|26-alola|Raichu Alola|Raichu Alola|Raichu Alola||"
+    "names": "|26-alola|Raichu Alola|Raichu Alola|Raichu Alola||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_026_61.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_026_61.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10100.png"
   },
   {
     "id": "GASTLY",
@@ -661,7 +698,10 @@
       "stardustToUnlock": 50000,
       "candyToUnlock": 50
     },
-    "names": "|92|Gastly|Fantominus|Gastly||"
+    "names": "|92|Gastly|Fantominus|Gastly||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_092_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_092_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png"
   },
   {
     "id": "HAUNTER",
@@ -711,7 +751,10 @@
       "candyToUnlock": 50
     },
     "parentId": "GASTLY",
-    "names": "|93|Haunter|Spectrum|Haunter||"
+    "names": "|93|Haunter|Spectrum|Haunter||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_093_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_093_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png"
   },
   {
     "id": "GENGAR",
@@ -773,7 +816,10 @@
         "type2": "POISON"
       }
     ],
-    "names": "|94|Gengar|Ectoplasma|Gengar||"
+    "names": "|94|Gengar|Ectoplasma|Gengar||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_094_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_094_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png"
   },
   {
     "id": "EEVEE",
@@ -857,7 +903,10 @@
       "stardustToUnlock": 75000,
       "candyToUnlock": 75
     },
-    "names": "|133|Eevee|Évoli|Eevee||"
+    "names": "|133|Eevee|Évoli|Eevee||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_133_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_133_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png"
   },
   {
     "id": "VAPOREON",
@@ -901,7 +950,10 @@
       "candyToUnlock": 75
     },
     "parentId": "EEVEE",
-    "names": "|134|Vaporeon|Aquali|Vaporeon||"
+    "names": "|134|Vaporeon|Aquali|Vaporeon||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_134_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_134_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png"
   },
   {
     "id": "JOLTEON",
@@ -946,7 +998,10 @@
       "candyToUnlock": 75
     },
     "parentId": "EEVEE",
-    "names": "|135|Jolteon|Voltali|Jolteon||"
+    "names": "|135|Jolteon|Voltali|Jolteon||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_135_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_135_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png"
   },
   {
     "id": "FLAREON",
@@ -992,7 +1047,10 @@
       "candyToUnlock": 75
     },
     "parentId": "EEVEE",
-    "names": "|136|Flareon|Pyroli|Flareon||"
+    "names": "|136|Flareon|Pyroli|Flareon||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_136_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_136_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png"
   },
   {
     "id": "ESPEON",
@@ -1037,7 +1095,10 @@
       "candyToUnlock": 75
     },
     "parentId": "EEVEE",
-    "names": "|196|Espeon|Mentali|Espeon||"
+    "names": "|196|Espeon|Mentali|Espeon||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_196_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_196_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png"
   },
   {
     "id": "UMBREON",
@@ -1081,7 +1142,10 @@
       "candyToUnlock": 75
     },
     "parentId": "EEVEE",
-    "names": "|197|Umbreon|Noctali|Umbreon||"
+    "names": "|197|Umbreon|Noctali|Umbreon||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_197_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_197_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png"
   },
   {
     "id": "LEAFEON",
@@ -1127,7 +1191,10 @@
       "candyToUnlock": 50
     },
     "parentId": "EEVEE",
-    "names": "|470|Leafeon|Phyllali|Leafeon||"
+    "names": "|470|Leafeon|Phyllali|Leafeon||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_470_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_470_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png"
   },
   {
     "id": "GLACEON",
@@ -1172,7 +1239,10 @@
       "candyToUnlock": 50
     },
     "parentId": "EEVEE",
-    "names": "|471|Glaceon|Givrali|Glaceon||"
+    "names": "|471|Glaceon|Givrali|Glaceon||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_471_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_471_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png"
   },
   {
     "id": "SYLVEON",
@@ -1217,7 +1287,10 @@
       "candyToUnlock": 50
     },
     "parentId": "EEVEE",
-    "names": "|700|||||"
+    "names": "|700|||||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_700_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_700_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png"
   },
   {
     "id": "OMANYTE",
@@ -1267,7 +1340,10 @@
       "stardustToUnlock": 75000,
       "candyToUnlock": 75
     },
-    "names": "|138|Omanyte|Amonita|Omanyte||"
+    "names": "|138|Omanyte|Amonita|Omanyte||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_138_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_138_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png"
   },
   {
     "id": "OMASTAR",
@@ -1313,6 +1389,9 @@
       "candyToUnlock": 75
     },
     "parentId": "OMANYTE",
-    "names": "|139|Omastar|Amonistar|Omastar||"
+    "names": "|139|Omastar|Amonistar|Omastar||",
+    "imagePogo256": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon%20-%20256x256/pokemon_icon_139_00.png",
+    "imagePogo": "https://raw.githubusercontent.com/PokeMiners/pogo_assets/master/Images/Pokemon/pokemon_icon_139_00.png",
+    "imageOfficial": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png"
   }
 ]
