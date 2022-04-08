@@ -1,0 +1,4 @@
+type MovePage {
+  items: [Move]!
+  paging: Paging!
+}

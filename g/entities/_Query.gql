@@ -1,5 +1,6 @@
 type Query {
   move(id: String!): Move
+  allMoves(page: Int, itemsPerPage: Int): MovePage
   pokemon(id: String!): Pokemon
   allPokemon(page: Int, itemsPerPage: Int): PokemonPage
   test(message: String!): TestObject
