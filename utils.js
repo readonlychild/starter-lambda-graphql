@@ -93,7 +93,39 @@ var utils = {
                 console.log('mutant:', name);
                 resolvers.Mutation[name.replace('.js', '')] = require(`${path}/Mutation/${name}`);
             });
+            
+            // drill into files inside /zNested
+            let nestedResolverFiles = [];
+            this._addFolderResolverFiles(`${path}/zNested`, nestedResolverFiles);
+            console.log('nestedResolverFiles', JSON.stringify(nestedResolverFiles));
+
+            nestedResolverFiles.forEach((entry) => {
+                let npath = entry.replace('./g/resolvers/zNested/', '');
+                let segments = npath.split('/');
+                let lvl = resolvers;
+                segments.forEach((segment, idx) => {
+                    if (idx < segments.length - 1) {
+                        if (!lvl[segment]) lvl[segment] = {};
+                        lvl = lvl[segment];
+                    } else {
+                        lvl[segment.replace('.js', '')] = require(`${path}/zNested/${npath}`);
+                        console.log('NESTED>', `${path}/zNested/${npath}`);
+                    }
+                });
+            });
+            
             return resolvers;
+        },
+        _addFolderResolverFiles: function (folder, ary) {
+            let files = fs.readdirSync(folder);
+            files.forEach((name) => {
+                let fullname = `${folder}/${name}`;
+                if (fs.statSync(fullname).isDirectory()) {
+                    this._addFolderResolverFiles(fullname, ary);
+                } else {
+                    ary.push(fullname);
+                }
+            });
         }
     },
     Discord: {

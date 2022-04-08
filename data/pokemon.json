@@ -26,8 +26,8 @@
     "kmBuddyDistance": 3,
     "evolutionBranch": [
       {
-        "evolution": "IVYSAUR_NORMAL",
-        "form": "IVYSAUR_NORMAL",
+        "evolution": "IVYSAUR",
+        "form": "IVYSAUR",
         "candyCost": 25
       }
     ],
@@ -76,8 +76,8 @@
     "kmBuddyDistance": 3,
     "evolutionBranch": [
       {
-        "evolution": "VENUSAUR_NORMAL",
-        "form": "VENUSAUR_NORMAL",
+        "evolution": "VENUSAUR",
+        "form": "VENUSAUR",
         "candyCost": 100
       }
     ],
@@ -187,8 +187,8 @@
     "kmBuddyDistance": 3,
     "evolutionBranch": [
       {
-        "evolution": "CHARMELEON_NORMAL",
-        "form": "CHARMELEON_NORMAL",
+        "evolution": "CHARMELEONNORMAL",
+        "form": "CHARMELEON",
         "candyCost": 25
       }
     ],
@@ -239,8 +239,8 @@
     "kmBuddyDistance": 3,
     "evolutionBranch": [
       {
-        "evolution": "CHARIZARD_NORMAL",
-        "form": "CHARIZARD_NORMAL",
+        "evolution": "CHARIZARD",
+        "form": "CHARIZARD",
         "candyCost": 100
       }
     ],
@@ -364,8 +364,8 @@
     "kmBuddyDistance": 3,
     "evolutionBranch": [
       {
-        "evolution": "WARTORTLE_NORMAL",
-        "form": "WARTORTLE_NORMAL",
+        "evolution": "WARTORTLE",
+        "form": "WARTORTLE",
         "candyCost": 25
       }
     ],
@@ -414,8 +414,8 @@
     "kmBuddyDistance": 3,
     "evolutionBranch": [
       {
-        "evolution": "BLASTOISE_NORMAL",
-        "form": "BLASTOISE_NORMAL",
+        "evolution": "BLASTOISE",
+        "form": "BLASTOISE",
         "candyCost": 100
       }
     ],
@@ -1322,8 +1322,8 @@
     "kmBuddyDistance": 5,
     "evolutionBranch": [
       {
-        "evolution": "OMASTAR_NORMAL",
-        "form": "OMASTAR_NORMAL",
+        "evolution": "OMASTAR",
+        "form": "OMASTAR",
         "candyCost": 50
       }
     ],
