@@ -1,0 +1,1793 @@
+{
+  "VINE_WHIP_FAST": {
+    "Name": "VINE_WHIP_FAST",
+    "Type": "GRASS",
+    "Power": 7,
+    "DurationMs": 600,
+    "Energy": 6,
+    "DamageWindowStartMs": 350,
+    "DamageWindowEndMs": 600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 5,
+      "Energy": 8
+    }
+  },
+  "TACKLE_FAST": {
+    "Name": "TACKLE_FAST",
+    "Type": "NORMAL",
+    "Power": 5,
+    "DurationMs": 500,
+    "Energy": 5,
+    "DamageWindowStartMs": 300,
+    "DamageWindowEndMs": 500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "NORMAL",
+      "Power": 3,
+      "Energy": 2
+    }
+  },
+  "SLUDGE_BOMB": {
+    "Name": "SLUDGE_BOMB",
+    "Type": "POISON",
+    "Power": 80,
+    "DurationMs": 2300,
+    "Energy": -50,
+    "DamageWindowStartMs": 1100,
+    "DamageWindowEndMs": 2100,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.09,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "POISON",
+      "Power": 80,
+      "Energy": -50
+    }
+  },
+  "SEED_BOMB": {
+    "Name": "SEED_BOMB",
+    "Type": "GRASS",
+    "Power": 55,
+    "DurationMs": 2100,
+    "Energy": -33,
+    "DamageWindowStartMs": 1200,
+    "DamageWindowEndMs": 1900,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 55,
+      "Energy": -40
+    }
+  },
+  "POWER_WHIP": {
+    "Name": "POWER_WHIP",
+    "Type": "GRASS",
+    "Power": 90,
+    "DurationMs": 2600,
+    "Energy": -50,
+    "DamageWindowStartMs": 1250,
+    "DamageWindowEndMs": 2350,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.12,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 90,
+      "Energy": -50
+    }
+  },
+  "RAZOR_LEAF_FAST": {
+    "Name": "RAZOR_LEAF_FAST",
+    "Type": "GRASS",
+    "Power": 13,
+    "DurationMs": 1000,
+    "Energy": 7,
+    "DamageWindowStartMs": 600,
+    "DamageWindowEndMs": 850,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 10,
+      "Energy": 4
+    }
+  },
+  "SOLAR_BEAM": {
+    "Name": "SOLAR_BEAM",
+    "Type": "GRASS",
+    "Power": 180,
+    "DurationMs": 4900,
+    "Energy": -100,
+    "DamageWindowStartMs": 2700,
+    "DamageWindowEndMs": 4700,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.12,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 150,
+      "Energy": -80
+    }
+  },
+  "PETAL_BLIZZARD": {
+    "Name": "PETAL_BLIZZARD",
+    "Type": "GRASS",
+    "Power": 110,
+    "DurationMs": 2600,
+    "Energy": -100,
+    "DamageWindowStartMs": 1700,
+    "DamageWindowEndMs": 2300,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.09,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 110,
+      "Energy": -65
+    }
+  },
+  "FRENZY_PLANT": {
+    "Name": "FRENZY_PLANT",
+    "Type": "GRASS",
+    "Power": 100,
+    "DurationMs": 2600,
+    "Energy": -50,
+    "DamageWindowStartMs": 2145,
+    "DamageWindowEndMs": 2550,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 100,
+      "Energy": -45
+    }
+  },
+  "EMBER_FAST": {
+    "Name": "EMBER_FAST",
+    "Type": "FIRE",
+    "Power": 10,
+    "DurationMs": 1000,
+    "Energy": 10,
+    "DamageWindowStartMs": 600,
+    "DamageWindowEndMs": 800,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 7,
+      "Energy": 6
+    }
+  },
+  "SCRATCH_FAST": {
+    "Name": "SCRATCH_FAST",
+    "Type": "NORMAL",
+    "Power": 6,
+    "DurationMs": 500,
+    "Energy": 4,
+    "DamageWindowStartMs": 300,
+    "DamageWindowEndMs": 500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "NORMAL",
+      "Power": 4,
+      "Energy": 2
+    }
+  },
+  "FLAME_CHARGE": {
+    "Name": "FLAME_CHARGE",
+    "Type": "FIRE",
+    "Power": 70,
+    "DurationMs": 3800,
+    "Energy": -33,
+    "DamageWindowStartMs": 2900,
+    "DamageWindowEndMs": 3450,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.05,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 65,
+      "Energy": -50,
+      "buffs": {
+        "buffActivationChance": 1,
+        "attackerAttackStatStageChange": 1
+      }
+    }
+  },
+  "FLAME_BURST": {
+    "Name": "FLAME_BURST",
+    "Type": "FIRE",
+    "Power": 70,
+    "DurationMs": 2600,
+    "Energy": -50,
+    "DamageWindowStartMs": 1000,
+    "DamageWindowEndMs": 2100,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.07,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 70,
+      "Energy": -55
+    }
+  },
+  "FLAMETHROWER": {
+    "Name": "FLAMETHROWER",
+    "Type": "FIRE",
+    "Power": 70,
+    "DurationMs": 2200,
+    "Energy": -50,
+    "DamageWindowStartMs": 1500,
+    "DamageWindowEndMs": 1700,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.09,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 90,
+      "Energy": -55
+    }
+  },
+  "FIRE_FANG_FAST": {
+    "Name": "FIRE_FANG_FAST",
+    "Type": "FIRE",
+    "Power": 12,
+    "DurationMs": 900,
+    "Energy": 8,
+    "DamageWindowStartMs": 640,
+    "DamageWindowEndMs": 840,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 8,
+      "Energy": 5
+    }
+  },
+  "FIRE_PUNCH": {
+    "Name": "FIRE_PUNCH",
+    "Type": "FIRE",
+    "Power": 55,
+    "DurationMs": 2200,
+    "Energy": -33,
+    "DamageWindowStartMs": 1500,
+    "DamageWindowEndMs": 1900,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.075,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 55,
+      "Energy": -40
+    }
+  },
+  "FIRE_SPIN_FAST": {
+    "Name": "FIRE_SPIN_FAST",
+    "Type": "FIRE",
+    "Power": 14,
+    "DurationMs": 1100,
+    "Energy": 10,
+    "DamageWindowStartMs": 850,
+    "DamageWindowEndMs": 1050,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 9,
+      "Energy": 10
+    }
+  },
+  "OVERHEAT": {
+    "Name": "OVERHEAT",
+    "Type": "FIRE",
+    "Power": 160,
+    "DurationMs": 4000,
+    "Energy": -100,
+    "DamageWindowStartMs": 2600,
+    "DamageWindowEndMs": 3800,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 130,
+      "Energy": -55,
+      "buffs": {
+        "buffActivationChance": 1,
+        "attackerAttackStatStageChange": -2
+      }
+    }
+  },
+  "AIR_SLASH_FAST": {
+    "Name": "AIR_SLASH_FAST",
+    "Type": "FLYING",
+    "Power": 14,
+    "DurationMs": 1200,
+    "Energy": 10,
+    "DamageWindowStartMs": 1000,
+    "DamageWindowEndMs": 1200,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FLYING",
+      "Power": 9,
+      "Energy": 9
+    }
+  },
+  "DRAGON_CLAW": {
+    "Name": "DRAGON_CLAW",
+    "Type": "DRAGON",
+    "Power": 50,
+    "DurationMs": 1700,
+    "Energy": -33,
+    "DamageWindowStartMs": 1100,
+    "DamageWindowEndMs": 1300,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "DRAGON",
+      "Power": 50,
+      "Energy": -35
+    }
+  },
+  "WING_ATTACK_FAST": {
+    "Name": "WING_ATTACK_FAST",
+    "Type": "FLYING",
+    "Power": 8,
+    "DurationMs": 800,
+    "Energy": 9,
+    "DamageWindowStartMs": 550,
+    "DamageWindowEndMs": 750,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FLYING",
+      "Power": 5,
+      "Energy": 7
+    }
+  },
+  "DRAGON_BREATH_FAST": {
+    "Name": "DRAGON_BREATH_FAST",
+    "Type": "DRAGON",
+    "Power": 6,
+    "DurationMs": 500,
+    "Energy": 4,
+    "DamageWindowStartMs": 300,
+    "DamageWindowEndMs": 500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "DRAGON",
+      "Power": 4,
+      "Energy": 3
+    }
+  },
+  "BUBBLE_FAST": {
+    "Name": "BUBBLE_FAST",
+    "Type": "WATER",
+    "Power": 12,
+    "DurationMs": 1200,
+    "Energy": 14,
+    "DamageWindowStartMs": 750,
+    "DamageWindowEndMs": 1000,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 7,
+      "Energy": 11
+    }
+  },
+  "AQUA_JET": {
+    "Name": "AQUA_JET",
+    "Type": "WATER",
+    "Power": 45,
+    "DurationMs": 2600,
+    "Energy": -33,
+    "DamageWindowStartMs": 1700,
+    "DamageWindowEndMs": 2100,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 45,
+      "Energy": -45
+    }
+  },
+  "AQUA_TAIL": {
+    "Name": "AQUA_TAIL",
+    "Type": "WATER",
+    "Power": 50,
+    "DurationMs": 1900,
+    "Energy": -33,
+    "DamageWindowStartMs": 1200,
+    "DamageWindowEndMs": 1650,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.09,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 50,
+      "Energy": -35
+    }
+  },
+  "WATER_PULSE": {
+    "Name": "WATER_PULSE",
+    "Type": "WATER",
+    "Power": 70,
+    "DurationMs": 3200,
+    "Energy": -50,
+    "DamageWindowStartMs": 2200,
+    "DamageWindowEndMs": 2900,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.06,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 70,
+      "Energy": -60
+    }
+  },
+  "WATER_GUN_FAST": {
+    "Name": "WATER_GUN_FAST",
+    "Type": "WATER",
+    "Power": 5,
+    "DurationMs": 500,
+    "Energy": 5,
+    "DamageWindowStartMs": 300,
+    "DamageWindowEndMs": 500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 3,
+      "Energy": 3
+    }
+  },
+  "BITE_FAST": {
+    "Name": "BITE_FAST",
+    "Type": "DARK",
+    "Power": 6,
+    "DurationMs": 500,
+    "Energy": 4,
+    "DamageWindowStartMs": 300,
+    "DamageWindowEndMs": 500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "DARK",
+      "Power": 4,
+      "Energy": 2
+    }
+  },
+  "ICE_BEAM": {
+    "Name": "ICE_BEAM",
+    "Type": "ICE",
+    "Power": 90,
+    "DurationMs": 3300,
+    "Energy": -50,
+    "DamageWindowStartMs": 1300,
+    "DamageWindowEndMs": 2800,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.09,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ICE",
+      "Power": 90,
+      "Energy": -55
+    }
+  },
+  "HYDRO_PUMP": {
+    "Name": "HYDRO_PUMP",
+    "Type": "WATER",
+    "Power": 130,
+    "DurationMs": 3300,
+    "Energy": -100,
+    "DamageWindowStartMs": 900,
+    "DamageWindowEndMs": 3000,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.11,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 130,
+      "Energy": -75
+    }
+  },
+  "FLASH_CANNON": {
+    "Name": "FLASH_CANNON",
+    "Type": "STEEL",
+    "Power": 100,
+    "DurationMs": 2700,
+    "Energy": -100,
+    "DamageWindowStartMs": 1600,
+    "DamageWindowEndMs": 2500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "STEEL",
+      "Power": 110,
+      "Energy": -70
+    }
+  },
+  "SKULL_BASH": {
+    "Name": "SKULL_BASH",
+    "Type": "NORMAL",
+    "Power": 130,
+    "DurationMs": 3100,
+    "Energy": -100,
+    "DamageWindowStartMs": 1800,
+    "DamageWindowEndMs": 2300,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "NORMAL",
+      "Power": 130,
+      "Energy": -75,
+      "buffs": {
+        "buffActivationChance": 1,
+        "attackerDefenseStatStageChange": 1
+      }
+    }
+  },
+  "HYDRO_CANNON": {
+    "Name": "HYDRO_CANNON",
+    "Type": "WATER",
+    "Power": 90,
+    "DurationMs": 1900,
+    "Energy": -50,
+    "DamageWindowStartMs": 500,
+    "DamageWindowEndMs": 1600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.065,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 80,
+      "Energy": -40
+    }
+  },
+  "LAST_RESORT": {
+    "Name": "LAST_RESORT",
+    "Type": "NORMAL",
+    "Power": 90,
+    "DurationMs": 2900,
+    "Energy": -50,
+    "DamageWindowStartMs": 2700,
+    "DamageWindowEndMs": 2850,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.065,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "NORMAL",
+      "Power": 90,
+      "Energy": -55
+    }
+  },
+  "THUNDER_SHOCK_FAST": {
+    "Name": "THUNDER_SHOCK_FAST",
+    "Type": "ELECTRIC",
+    "Power": 5,
+    "DurationMs": 600,
+    "Energy": 8,
+    "DamageWindowStartMs": 300,
+    "DamageWindowEndMs": 600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ELECTRIC",
+      "Power": 3,
+      "Energy": 9
+    }
+  },
+  "SPARK_FAST": {
+    "Name": "SPARK_FAST",
+    "Type": "ELECTRIC",
+    "Power": 6,
+    "DurationMs": 700,
+    "Energy": 9,
+    "DamageWindowStartMs": 300,
+    "DamageWindowEndMs": 700,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ELECTRIC",
+      "Power": 4,
+      "Energy": 8
+    }
+  },
+  "QUICK_ATTACK_FAST": {
+    "Name": "QUICK_ATTACK_FAST",
+    "Type": "NORMAL",
+    "Power": 8,
+    "DurationMs": 800,
+    "Energy": 10,
+    "DamageWindowStartMs": 250,
+    "DamageWindowEndMs": 550,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "NORMAL",
+      "Power": 5,
+      "Energy": 7
+    }
+  },
+  "DISCHARGE": {
+    "Name": "DISCHARGE",
+    "Type": "ELECTRIC",
+    "Power": 65,
+    "DurationMs": 2500,
+    "Energy": -33,
+    "DamageWindowStartMs": 1700,
+    "DamageWindowEndMs": 2100,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ELECTRIC",
+      "Power": 65,
+      "Energy": -45
+    }
+  },
+  "THUNDERBOLT": {
+    "Name": "THUNDERBOLT",
+    "Type": "ELECTRIC",
+    "Power": 80,
+    "DurationMs": 2500,
+    "Energy": -50,
+    "DamageWindowStartMs": 1800,
+    "DamageWindowEndMs": 2300,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.09,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ELECTRIC",
+      "Power": 90,
+      "Energy": -55
+    }
+  },
+  "WILD_CHARGE": {
+    "Name": "WILD_CHARGE",
+    "Type": "ELECTRIC",
+    "Power": 90,
+    "DurationMs": 2600,
+    "Energy": -50,
+    "DamageWindowStartMs": 1700,
+    "DamageWindowEndMs": 2100,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ELECTRIC",
+      "Power": 100,
+      "Energy": -45,
+      "buffs": {
+        "buffActivationChance": 1,
+        "attackerDefenseStatStageChange": -2
+      }
+    }
+  },
+  "PRESENT_FAST": {
+    "Name": "PRESENT_FAST",
+    "Type": "NORMAL",
+    "Power": 5,
+    "DurationMs": 1300,
+    "Energy": 20,
+    "DamageWindowStartMs": 1100,
+    "DamageWindowEndMs": 1300,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "NORMAL",
+      "Power": 3,
+      "Energy": 12
+    }
+  },
+  "THUNDER": {
+    "Name": "THUNDER",
+    "Type": "ELECTRIC",
+    "Power": 100,
+    "DurationMs": 2400,
+    "Energy": -100,
+    "DamageWindowStartMs": 1200,
+    "DamageWindowEndMs": 2200,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.11,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ELECTRIC",
+      "Power": 100,
+      "Energy": -60
+    }
+  },
+  "SURF": {
+    "Name": "SURF",
+    "Type": "WATER",
+    "Power": 65,
+    "DurationMs": 1700,
+    "Energy": -50,
+    "DamageWindowStartMs": 1400,
+    "DamageWindowEndMs": 1600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 65,
+      "Energy": -40
+    }
+  },
+  "VOLT_SWITCH_FAST": {
+    "Name": "VOLT_SWITCH_FAST",
+    "Type": "ELECTRIC",
+    "Power": 14,
+    "DurationMs": 1600,
+    "Energy": 21,
+    "DamageWindowStartMs": 700,
+    "DamageWindowEndMs": 900,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ELECTRIC",
+      "Power": 12,
+      "Energy": 16
+    }
+  },
+  "CHARM_FAST": {
+    "Name": "CHARM_FAST",
+    "Type": "FAIRY",
+    "Power": 20,
+    "DurationMs": 1500,
+    "Energy": 11,
+    "DamageWindowStartMs": 900,
+    "DamageWindowEndMs": 1200,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FAIRY",
+      "Power": 16,
+      "Energy": 6
+    }
+  },
+  "BRICK_BREAK": {
+    "Name": "BRICK_BREAK",
+    "Type": "FIGHTING",
+    "Power": 40,
+    "DurationMs": 1600,
+    "Energy": -33,
+    "DamageWindowStartMs": 800,
+    "DamageWindowEndMs": 1400,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.075,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIGHTING",
+      "Power": 40,
+      "Energy": -35
+    }
+  },
+  "THUNDER_PUNCH": {
+    "Name": "THUNDER_PUNCH",
+    "Type": "ELECTRIC",
+    "Power": 45,
+    "DurationMs": 1800,
+    "Energy": -33,
+    "DamageWindowStartMs": 1700,
+    "DamageWindowEndMs": 1550,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.075,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ELECTRIC",
+      "Power": 55,
+      "Energy": -40
+    }
+  },
+  "PSYCHIC": {
+    "Name": "PSYCHIC",
+    "Type": "PSYCHIC",
+    "Power": 90,
+    "DurationMs": 2800,
+    "Energy": -50,
+    "DamageWindowStartMs": 1300,
+    "DamageWindowEndMs": 2600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.09,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "PSYCHIC",
+      "Power": 90,
+      "Energy": -55,
+      "buffs": {
+        "buffActivationChance": 0.1,
+        "targetDefenseStatStageChange": -1
+      }
+    }
+  },
+  "GRASS_KNOT": {
+    "Name": "GRASS_KNOT",
+    "Type": "GRASS",
+    "Power": 90,
+    "DurationMs": 2600,
+    "Energy": -50,
+    "DamageWindowStartMs": 1700,
+    "DamageWindowEndMs": 2600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 90,
+      "Energy": -50
+    }
+  },
+  "LICK_FAST": {
+    "Name": "LICK_FAST",
+    "Type": "GHOST",
+    "Power": 5,
+    "DurationMs": 500,
+    "Energy": 6,
+    "DamageWindowStartMs": 200,
+    "DamageWindowEndMs": 500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GHOST",
+      "Power": 3,
+      "Energy": 3
+    }
+  },
+  "ASTONISH_FAST": {
+    "Name": "ASTONISH_FAST",
+    "Type": "GHOST",
+    "Power": 8,
+    "DurationMs": 1100,
+    "Energy": 14,
+    "DamageWindowStartMs": 700,
+    "DamageWindowEndMs": 1050,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GHOST",
+      "Power": 5,
+      "Energy": 9
+    }
+  },
+  "NIGHT_SHADE": {
+    "Name": "NIGHT_SHADE",
+    "Type": "GHOST",
+    "Power": 60,
+    "DurationMs": 2600,
+    "Energy": -50,
+    "DamageWindowStartMs": 2100,
+    "DamageWindowEndMs": 2500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GHOST",
+      "Power": 60,
+      "Energy": -55
+    }
+  },
+  "DARK_PULSE": {
+    "Name": "DARK_PULSE",
+    "Type": "DARK",
+    "Power": 80,
+    "DurationMs": 3000,
+    "Energy": -50,
+    "DamageWindowStartMs": 1400,
+    "DamageWindowEndMs": 2300,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "DARK",
+      "Power": 80,
+      "Energy": -50
+    }
+  },
+  "SLUDGE": {
+    "Name": "SLUDGE",
+    "Type": "POISON",
+    "Power": 50,
+    "DurationMs": 2100,
+    "Energy": -33,
+    "DamageWindowStartMs": 1200,
+    "DamageWindowEndMs": 1550,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.065,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "POISON",
+      "Power": 50,
+      "Energy": -40
+    }
+  },
+  "SUCKER_PUNCH_FAST": {
+    "Name": "SUCKER_PUNCH_FAST",
+    "Type": "DARK",
+    "Power": 7,
+    "DurationMs": 700,
+    "Energy": 8,
+    "DamageWindowStartMs": 300,
+    "DamageWindowEndMs": 700,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "DARK",
+      "Power": 5,
+      "Energy": 7
+    }
+  },
+  "OMINOUS_WIND": {
+    "Name": "OMINOUS_WIND",
+    "Type": "GHOST",
+    "Power": 50,
+    "DurationMs": 2300,
+    "Energy": -33,
+    "DamageWindowStartMs": 1850,
+    "DamageWindowEndMs": 2100,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.06,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GHOST",
+      "Power": 45,
+      "Energy": -45,
+      "buffs": {
+        "buffActivationChance": 0.1,
+        "attackerAttackStatStageChange": 2,
+        "attackerDefenseStatStageChange": 2
+      }
+    }
+  },
+  "SHADOW_BALL": {
+    "Name": "SHADOW_BALL",
+    "Type": "GHOST",
+    "Power": 100,
+    "DurationMs": 3000,
+    "Energy": -50,
+    "DamageWindowStartMs": 2400,
+    "DamageWindowEndMs": 2800,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GHOST",
+      "Power": 100,
+      "Energy": -55
+    }
+  },
+  "SHADOW_CLAW_FAST": {
+    "Name": "SHADOW_CLAW_FAST",
+    "Type": "GHOST",
+    "Power": 9,
+    "DurationMs": 700,
+    "Energy": 6,
+    "DamageWindowStartMs": 250,
+    "DamageWindowEndMs": 500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GHOST",
+      "Power": 6,
+      "Energy": 8
+    }
+  },
+  "SHADOW_PUNCH": {
+    "Name": "SHADOW_PUNCH",
+    "Type": "GHOST",
+    "Power": 40,
+    "DurationMs": 1700,
+    "Energy": -33,
+    "DamageWindowStartMs": 1300,
+    "DamageWindowEndMs": 1500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.06,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GHOST",
+      "Power": 40,
+      "Energy": -35
+    }
+  },
+  "HEX_FAST": {
+    "Name": "HEX_FAST",
+    "Type": "GHOST",
+    "Power": 10,
+    "DurationMs": 1200,
+    "Energy": 16,
+    "DamageWindowStartMs": 1000,
+    "DamageWindowEndMs": 1200,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GHOST",
+      "Power": 6,
+      "Energy": 12
+    }
+  },
+  "FOCUS_BLAST": {
+    "Name": "FOCUS_BLAST",
+    "Type": "FIGHTING",
+    "Power": 140,
+    "DurationMs": 3500,
+    "Energy": -100,
+    "DamageWindowStartMs": 3000,
+    "DamageWindowEndMs": 3500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIGHTING",
+      "Power": 150,
+      "Energy": -75
+    }
+  },
+  "SLUDGE_WAVE": {
+    "Name": "SLUDGE_WAVE",
+    "Type": "POISON",
+    "Power": 110,
+    "DurationMs": 3200,
+    "Energy": -100,
+    "DamageWindowStartMs": 2000,
+    "DamageWindowEndMs": 3000,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.095,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "POISON",
+      "Power": 110,
+      "Energy": -65
+    }
+  },
+  "DIG": {
+    "Name": "DIG",
+    "Type": "GROUND",
+    "Power": 100,
+    "DurationMs": 4700,
+    "Energy": -50,
+    "DamageWindowStartMs": 2800,
+    "DamageWindowEndMs": 4500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GROUND",
+      "Power": 100,
+      "Energy": -80
+    }
+  },
+  "SWIFT": {
+    "Name": "SWIFT",
+    "Type": "NORMAL",
+    "Power": 60,
+    "DurationMs": 2800,
+    "Energy": -50,
+    "DamageWindowStartMs": 2000,
+    "DamageWindowEndMs": 2600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.06,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "NORMAL",
+      "Power": 60,
+      "Energy": -55
+    }
+  },
+  "BODY_SLAM": {
+    "Name": "BODY_SLAM",
+    "Type": "NORMAL",
+    "Power": 50,
+    "DurationMs": 1900,
+    "Energy": -33,
+    "DamageWindowStartMs": 1200,
+    "DamageWindowEndMs": 1700,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.085,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "NORMAL",
+      "Power": 60,
+      "Energy": -35
+    }
+  },
+  "SCALD": {
+    "Name": "SCALD",
+    "Type": "WATER",
+    "Power": 80,
+    "DurationMs": 3700,
+    "Energy": -50,
+    "DamageWindowStartMs": 1300,
+    "DamageWindowEndMs": 3400,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 80,
+      "Energy": -50,
+      "buffs": {
+        "buffActivationChance": 0.3,
+        "targetAttackStatStageChange": -1
+      }
+    }
+  },
+  "ZAP_CANNON": {
+    "Name": "ZAP_CANNON",
+    "Type": "ELECTRIC",
+    "Power": 140,
+    "DurationMs": 3700,
+    "Energy": -100,
+    "DamageWindowStartMs": 3000,
+    "DamageWindowEndMs": 3500,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ELECTRIC",
+      "Power": 150,
+      "Energy": -80,
+      "buffs": {
+        "buffActivationChance": 1,
+        "targetAttackStatStageChange": -1
+      }
+    }
+  },
+  "FIRE_BLAST": {
+    "Name": "FIRE_BLAST",
+    "Type": "FIRE",
+    "Power": 140,
+    "DurationMs": 4200,
+    "Energy": -100,
+    "DamageWindowStartMs": 3100,
+    "DamageWindowEndMs": 3900,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.11,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 140,
+      "Energy": -80
+    }
+  },
+  "HEAT_WAVE": {
+    "Name": "HEAT_WAVE",
+    "Type": "FIRE",
+    "Power": 95,
+    "DurationMs": 3000,
+    "Energy": -100,
+    "DamageWindowStartMs": 1700,
+    "DamageWindowEndMs": 2800,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.095,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIRE",
+      "Power": 95,
+      "Energy": -75
+    }
+  },
+  "SUPER_POWER": {
+    "Name": "SUPER_POWER",
+    "Type": "FIGHTING",
+    "Power": 85,
+    "DurationMs": 3000,
+    "Energy": -50,
+    "DamageWindowStartMs": 2100,
+    "DamageWindowEndMs": 2800,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FIGHTING",
+      "Power": 85,
+      "Energy": -40,
+      "buffs": {
+        "buffActivationChance": 1,
+        "attackerAttackStatStageChange": -1,
+        "attackerDefenseStatStageChange": -1
+      }
+    }
+  },
+  "ZEN_HEADBUTT_FAST": {
+    "Name": "ZEN_HEADBUTT_FAST",
+    "Type": "PSYCHIC",
+    "Power": 12,
+    "DurationMs": 1100,
+    "Energy": 10,
+    "DamageWindowStartMs": 850,
+    "DamageWindowEndMs": 1050,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "PSYCHIC",
+      "Power": 8,
+      "Energy": 6
+    }
+  },
+  "CONFUSION_FAST": {
+    "Name": "CONFUSION_FAST",
+    "Type": "PSYCHIC",
+    "Power": 20,
+    "DurationMs": 1600,
+    "Energy": 15,
+    "DamageWindowStartMs": 600,
+    "DamageWindowEndMs": 1600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "PSYCHIC",
+      "Power": 16,
+      "Energy": 12
+    }
+  },
+  "PSYBEAM": {
+    "Name": "PSYBEAM",
+    "Type": "PSYCHIC",
+    "Power": 70,
+    "DurationMs": 3200,
+    "Energy": -50,
+    "DamageWindowStartMs": 1300,
+    "DamageWindowEndMs": 2700,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.065,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "PSYCHIC",
+      "Power": 70,
+      "Energy": -60
+    }
+  },
+  "FUTURESIGHT": {
+    "Name": "FUTURESIGHT",
+    "Type": "PSYCHIC",
+    "Power": 120,
+    "DurationMs": 2700,
+    "Energy": -100,
+    "DamageWindowStartMs": 1400,
+    "DamageWindowEndMs": 2700,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "PSYCHIC",
+      "Power": 120,
+      "Energy": -65
+    }
+  },
+  "FEINT_ATTACK_FAST": {
+    "Name": "FEINT_ATTACK_FAST",
+    "Type": "DARK",
+    "Power": 10,
+    "DurationMs": 900,
+    "Energy": 9,
+    "DamageWindowStartMs": 750,
+    "DamageWindowEndMs": 900,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "DARK",
+      "Power": 6,
+      "Energy": 6
+    }
+  },
+  "SNARL_FAST": {
+    "Name": "SNARL_FAST",
+    "Type": "DARK",
+    "Power": 12,
+    "DurationMs": 1100,
+    "Energy": 14,
+    "DamageWindowStartMs": 850,
+    "DamageWindowEndMs": 1050,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "DARK",
+      "Power": 5,
+      "Energy": 13
+    }
+  },
+  "FOUL_PLAY": {
+    "Name": "FOUL_PLAY",
+    "Type": "DARK",
+    "Power": 70,
+    "DurationMs": 2000,
+    "Energy": -50,
+    "DamageWindowStartMs": 1700,
+    "DamageWindowEndMs": 1900,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "DARK",
+      "Power": 70,
+      "Energy": -45
+    }
+  },
+  "LEAF_BLADE": {
+    "Name": "LEAF_BLADE",
+    "Type": "GRASS",
+    "Power": 70,
+    "DurationMs": 2400,
+    "Energy": -33,
+    "DamageWindowStartMs": 1250,
+    "DamageWindowEndMs": 2200,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.09,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 70,
+      "Energy": -35
+    }
+  },
+  "ENERGY_BALL": {
+    "Name": "ENERGY_BALL",
+    "Type": "GRASS",
+    "Power": 90,
+    "DurationMs": 3900,
+    "Energy": -50,
+    "DamageWindowStartMs": 3000,
+    "DamageWindowEndMs": 3800,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 90,
+      "Energy": -55,
+      "buffs": {
+        "buffActivationChance": 0.1,
+        "targetDefenseStatStageChange": -1
+      }
+    }
+  },
+  "BULLET_SEED_FAST": {
+    "Name": "BULLET_SEED_FAST",
+    "Type": "GRASS",
+    "Power": 8,
+    "DurationMs": 1100,
+    "Energy": 14,
+    "DamageWindowStartMs": 850,
+    "DamageWindowEndMs": 1050,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GRASS",
+      "Power": 5,
+      "Energy": 13
+    }
+  },
+  "ICE_SHARD_FAST": {
+    "Name": "ICE_SHARD_FAST",
+    "Type": "ICE",
+    "Power": 12,
+    "DurationMs": 1200,
+    "Energy": 12,
+    "DamageWindowStartMs": 600,
+    "DamageWindowEndMs": 900,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ICE",
+      "Power": 9,
+      "Energy": 10
+    }
+  },
+  "FROST_BREATH_FAST": {
+    "Name": "FROST_BREATH_FAST",
+    "Type": "ICE",
+    "Power": 10,
+    "DurationMs": 900,
+    "Energy": 8,
+    "DamageWindowStartMs": 450,
+    "DamageWindowEndMs": 750,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ICE",
+      "Power": 7,
+      "Energy": 5
+    }
+  },
+  "AVALANCHE": {
+    "Name": "AVALANCHE",
+    "Type": "ICE",
+    "Power": 90,
+    "DurationMs": 2700,
+    "Energy": -50,
+    "DamageWindowStartMs": 1700,
+    "DamageWindowEndMs": 2100,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ICE",
+      "Power": 90,
+      "Energy": -45
+    }
+  },
+  "ICY_WIND": {
+    "Name": "ICY_WIND",
+    "Type": "ICE",
+    "Power": 60,
+    "DurationMs": 3300,
+    "Energy": -33,
+    "DamageWindowStartMs": 2000,
+    "DamageWindowEndMs": 2800,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.055,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ICE",
+      "Power": 60,
+      "Energy": -45,
+      "buffs": {
+        "buffActivationChance": 1,
+        "targetAttackStatStageChange": -1
+      }
+    }
+  },
+  "DRAINING_KISS": {
+    "Name": "DRAINING_KISS",
+    "Type": "FAIRY",
+    "Power": 60,
+    "DurationMs": 2600,
+    "Energy": -50,
+    "DamageWindowStartMs": 1000,
+    "DamageWindowEndMs": 1300,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.05,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FAIRY",
+      "Power": 60,
+      "Energy": -55
+    }
+  },
+  "DAZZLING_GLEAM": {
+    "Name": "DAZZLING_GLEAM",
+    "Type": "FAIRY",
+    "Power": 100,
+    "DurationMs": 3500,
+    "Energy": -50,
+    "DamageWindowStartMs": 2100,
+    "DamageWindowEndMs": 3300,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FAIRY",
+      "Power": 110,
+      "Energy": -70
+    }
+  },
+  "MOONBLAST": {
+    "Name": "MOONBLAST",
+    "Type": "FAIRY",
+    "Power": 130,
+    "DurationMs": 3900,
+    "Energy": -100,
+    "DamageWindowStartMs": 2200,
+    "DamageWindowEndMs": 3700,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.095,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "FAIRY",
+      "Power": 110,
+      "Energy": -60,
+      "buffs": {
+        "buffActivationChance": 0.1,
+        "targetAttackStatStageChange": -1
+      }
+    }
+  },
+  "PSYSHOCK": {
+    "Name": "PSYSHOCK",
+    "Type": "PSYCHIC",
+    "Power": 65,
+    "DurationMs": 2700,
+    "Energy": -33,
+    "DamageWindowStartMs": 2000,
+    "DamageWindowEndMs": 2600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.08,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "PSYCHIC",
+      "Power": 70,
+      "Energy": -45
+    }
+  },
+  "MUD_SHOT_FAST": {
+    "Name": "MUD_SHOT_FAST",
+    "Type": "GROUND",
+    "Power": 5,
+    "DurationMs": 600,
+    "Energy": 7,
+    "DamageWindowStartMs": 350,
+    "DamageWindowEndMs": 550,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "GROUND",
+      "Power": 3,
+      "Energy": 9
+    }
+  },
+  "ANCIENT_POWER": {
+    "Name": "ANCIENT_POWER",
+    "Type": "ROCK",
+    "Power": 70,
+    "DurationMs": 3500,
+    "Energy": -33,
+    "DamageWindowStartMs": 2850,
+    "DamageWindowEndMs": 3100,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.06,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ROCK",
+      "Power": 45,
+      "Energy": -45,
+      "buffs": {
+        "buffActivationChance": 0.1,
+        "attackerAttackStatStageChange": 2,
+        "attackerDefenseStatStageChange": 2
+      }
+    }
+  },
+  "BUBBLE_BEAM": {
+    "Name": "BUBBLE_BEAM",
+    "Type": "WATER",
+    "Power": 45,
+    "DurationMs": 1900,
+    "Energy": -33,
+    "DamageWindowStartMs": 1450,
+    "DamageWindowEndMs": 1700,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.065,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 25,
+      "Energy": -40,
+      "buffs": {
+        "buffActivationChance": 1,
+        "targetAttackStatStageChange": -1
+      }
+    }
+  },
+  "ROCK_BLAST": {
+    "Name": "ROCK_BLAST",
+    "Type": "ROCK",
+    "Power": 50,
+    "DurationMs": 2100,
+    "Energy": -33,
+    "DamageWindowStartMs": 1600,
+    "DamageWindowEndMs": 2000,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.04,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ROCK",
+      "Power": 50,
+      "Energy": -40
+    }
+  },
+  "ROCK_TOMB": {
+    "Name": "ROCK_TOMB",
+    "Type": "ROCK",
+    "Power": 70,
+    "DurationMs": 3200,
+    "Energy": -50,
+    "DamageWindowStartMs": 2250,
+    "DamageWindowEndMs": 3000,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.06,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ROCK",
+      "Power": 70,
+      "Energy": -60,
+      "buffs": {
+        "buffActivationChance": 1,
+        "targetAttackStatStageChange": -1
+      }
+    }
+  },
+  "ROCK_SLIDE": {
+    "Name": "ROCK_SLIDE",
+    "Type": "ROCK",
+    "Power": 80,
+    "DurationMs": 2700,
+    "Energy": -50,
+    "DamageWindowStartMs": 1500,
+    "DamageWindowEndMs": 2600,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.075,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ROCK",
+      "Power": 75,
+      "Energy": -45
+    }
+  },
+  "BRINE": {
+    "Name": "BRINE",
+    "Type": "WATER",
+    "Power": 60,
+    "DurationMs": 2300,
+    "Energy": -50,
+    "DamageWindowStartMs": 1500,
+    "DamageWindowEndMs": 2100,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.065,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "WATER",
+      "Power": 60,
+      "Energy": -50
+    }
+  },
+  "ROCK_THROW_FAST": {
+    "Name": "ROCK_THROW_FAST",
+    "Type": "ROCK",
+    "Power": 12,
+    "DurationMs": 900,
+    "Energy": 7,
+    "DamageWindowStartMs": 500,
+    "DamageWindowEndMs": 800,
+    "Accuracy": 1,
+    "StaminaLossScalar": 0.01,
+    "TrainerLevelMin": 1,
+    "TrainerLevelMax": 100,
+    "combat": {
+      "Type": "ROCK",
+      "Power": 8,
+      "Energy": 5
+    }
+  }
+}
