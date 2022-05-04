@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>A Basic HTML5 Template</title>
+  <meta name="description" content="A simple HTML5 Template for new projects.">
+  <meta name="author" content="roc">
+  <style>
+    body { font-family:arial; }
+    pre { background:#cdf; margin:10px; padding:15px;max-height:400px; overflow:auto; border-radius:10px; }
+  </style>
+ </head>
+
+ <body>
+  <h2>Check the developer console <small>too</small></h2>
+
+  <pre id="results"></pre>
+  <script src="./gql.js"></script>
+  <script type="text/javascript">
+    gql.query(
+      'allPokemon', 
+      'items { id name type1 type2 stats { attack defense stamina } }',
+      'page: 2, itemsPerPage: 4'
+    );
+    gql.query(
+      'pokemon',
+      'name type1 type2 evolvesTo { name }',
+      'id: "bulbasaur"',
+      'bulbasaur'
+    );
+    gql.query(
+      'pokemon',
+      'name type1 type2 evolvesTo { name }',
+      'id: "squirtle"',
+      'squirtle'
+    );
+    gql.send()
+    .then((result) => {
+      console.log(result);
+      document.getElementById('results').innerText = JSON.stringify(result, null, 2);
+    });
+  </script>
+ </body>
+</html>
